@@ -5,8 +5,10 @@ module.exports = new class Index
 
   polvo: true
 
-  type: 'js'
+  type: 'script'
   name: 'javascript'
+  output: 'js'
+
   ext: /\.js$/m
   exts: [ '.js' ]
 
