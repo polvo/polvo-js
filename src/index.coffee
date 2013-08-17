@@ -12,5 +12,5 @@ module.exports = new class Index
   ext: /\.js$/m
   exts: [ '.js' ]
 
-  compile:( filepath, source, debug, done )->
+  compile:( filepath, source, debug, error, done )->
     done source, null
