@@ -3,8 +3,6 @@
 
 module.exports = new class Index
 
-  polvo: true
-
   type: 'script'
   name: 'javascript'
   output: 'js'

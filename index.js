@@ -8,8 +8,6 @@ var Index;
 module.exports = new (Index = (function() {
   function Index() {}
 
-  Index.prototype.polvo = true;
-
   Index.prototype.type = 'script';
 
   Index.prototype.name = 'javascript';
