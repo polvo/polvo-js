@@ -1,3 +1,11 @@
+0.1.1 / 2014-06-06
+===================
+ * Adding syntax validaor
+
+0.1.0 / 2013-09-01
+===================
+ * Adding tests
+
 0.0.3 / 2013-08-25
 ===================
  * Moving plugin's polvo flag to package.json to improve detection
