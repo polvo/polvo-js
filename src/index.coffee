@@ -1,6 +1,8 @@
 (require 'source-map-support').install
   handleUncaughtExceptions: false
 
+esprima = require 'esprima'
+
 module.exports = new class Index
 
   type: 'script'
@@ -11,4 +13,12 @@ module.exports = new class Index
   exts: [ '.js' ]
 
   compile:( filepath, source, debug, error, done )->
-    done source, null
+
+    try
+      esprima.parse source
+    catch err
+      if err?
+        done ''
+        return error err
+
+    done source

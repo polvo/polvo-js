@@ -17,7 +17,8 @@
     "url": "http://github.com/polvo/polvo-js"
   },
   "dependencies": {
-    "source-map-support": "0.2.x"
+    "source-map-support": "0.2.x",
+    "esprima": "^1.2.2"
   },
   "devDependencies": {
     "coffee-script": "1.6.x",
